@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.example.demo">
+	<select id="GetAllUsers" resultType="java.util.HashMap">
+		SELECT * FROM 'users'
+	</select>
+</mapper>
